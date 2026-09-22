@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>THE MACHINE — MOONBASE</title>
+<style>:root{
+  --bg:#0d0f12; --surface:#15181c; --surface-2:#1b1f24; --border:#2a2f35;
+  --text:#f1f3f5; --muted:#8b929a;
+  --stan-martwy:#454a50; --stan-zywy:#c9973e; --stan-nieokreslony:#7899b8;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);
+  font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,system-ui,sans-serif;
+  line-height:1.5;-webkit-font-smoothing:antialiased;padding:24px 16px}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-variant-numeric:tabular-nums}
+.nowrap{white-space:nowrap}
+.karta{max-width:1100px;margin:0 auto}
+.label{font-size:11px;letter-spacing:.18em;color:var(--muted);margin-bottom:8px}
+.sekcja{margin:0 0 26px}
+.pod{color:var(--muted);font-size:13px;margin-top:4px}
+.duza{font-size:34px;font-weight:700;line-height:1.1}
+/* HERO */
+.hero{background:linear-gradient(180deg,var(--surface),var(--bg));border:1px solid var(--border);
+  border-left:4px solid var(--border);border-radius:12px;padding:22px 24px 26px;margin-bottom:28px}
+.hero.stan-zywy{border-left-color:var(--stan-zywy)}
+.hero.stan-martwy{border-left-color:var(--stan-martwy)}
+.hero.stan-nieokreslony{border-left-color:var(--stan-nieokreslony)}
+.hero-top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:20px}
+.marka{font-size:13px;letter-spacing:.22em;font-weight:600}
+.tryb{font-size:11px;letter-spacing:.18em;color:var(--muted)}
+.hero-id{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 14px;margin-bottom:14px}
+.hero-id .symbol{font-size:26px;font-weight:700}
+.hero-id .adres{color:var(--muted);font-size:13px}
+.siec-tag{font-size:11px;letter-spacing:.16em;color:var(--muted);border:1px solid var(--border);border-radius:3px;padding:2px 8px}
+.stan{font-size:44px;font-weight:800;letter-spacing:.02em;line-height:1.04;margin:4px 0 8px}
+.stan.stan-zywy{color:var(--stan-zywy)}
+.stan.stan-martwy{color:var(--stan-martwy)}
+.stan.stan-nieokreslony{color:var(--stan-nieokreslony)}
+.meta{color:var(--muted);font-size:13px}
+.hero-podpis{font-size:17px;line-height:1.5;color:var(--text);margin:12px 0 0;max-width:62ch;text-wrap:balance}
+/* SPARKLINE */
+.spark{width:100%;max-width:640px;height:auto;display:block;margin:2px 0 14px}
+.spk-line{fill:none;stroke:var(--muted);stroke-width:2}
+.spark .pt{fill:var(--text)}
+.spk-prog{stroke:var(--muted);stroke-width:1;stroke-dasharray:4 4;opacity:.6}
+.spk-prog-lab,.spk-mk-lab{fill:var(--muted);font-size:11px;font-family:ui-monospace,Menlo,monospace}
+.spk-val{fill:var(--text);font-size:12px;font-family:ui-monospace,Menlo,monospace}
+.spk-mark{stroke:var(--muted);stroke-width:1;stroke-dasharray:3 3}
+.spk-mark-d{fill:var(--text)}
+.plyn-grid{display:flex;flex-wrap:wrap;gap:28px}
+.plyn-poz .label{margin-bottom:4px}
+.plyn-kwota{font-size:22px;font-weight:600}
+.iloraz{font-size:16px;margin-top:10px}
+.prog{margin-top:6px;color:var(--muted);font-size:13px}
+/* STAWKA */
+.pod.mono{font-variant-numeric:tabular-nums}
+/* TIMELINE */
+.timeline{display:flex;flex-wrap:nowrap;gap:0;margin-top:4px}
+.tl-node{flex:1 1 0;min-width:0;position:relative;padding:18px 10px 0;text-align:center}
+.tl-node::before{content:"";position:absolute;top:5px;left:0;right:0;height:2px;background:var(--border)}
+.tl-node:first-child::before{left:50%}
+.tl-node:last-child::before{right:50%}
+.tl-dot{position:absolute;top:0;left:50%;transform:translateX(-50%);width:11px;height:11px;border-radius:50%;background:var(--surface-2);border:2px solid var(--muted)}
+.tl-node:last-child .tl-dot{background:var(--text);border-color:var(--text)}
+.tl-lab{display:block;font-size:11px;letter-spacing:.1em;color:var(--muted)}
+.tl-val{display:block;font-size:14px;margin-top:3px;overflow-wrap:anywhere}
+/* DOZOR */
+.staty{display:flex;flex-wrap:wrap;gap:26px;margin-top:6px}
+.stat .n{font-size:22px;font-weight:600}
+.stat .co{color:var(--muted);font-size:12px;letter-spacing:.08em;margin-top:2px}
+.rezerwa,.punkt{margin-top:16px;color:var(--muted);font-size:13px}
+.rezerwa .w,.punkt .w{color:var(--text)}
+.event{margin-top:16px;background:var(--surface-2);border:1px solid var(--border);border-radius:8px;padding:14px 16px}
+.event .label{margin-bottom:6px}
+.event .kiedy{color:var(--muted);font-size:13px;margin-bottom:10px}
+.event .przejscie{font-size:15px;margin:4px 0}
+.event .kwoty{font-size:18px;font-weight:600;margin-top:6px}
+.brak{list-style:none;padding:0;margin:8px 0 0}
+.brak li{margin:6px 0}
+.brak .co{font-size:12px;letter-spacing:.1em;color:var(--muted)}
+.brak .w{font-size:15px}
+.foot{border-top:1px solid var(--border);padding-top:16px;margin-top:8px;color:var(--muted);font-size:13px}
+.foot .disc{margin-top:4px}
+/* POZA POMIAREM */
+.poza{max-width:560px;margin:8vh auto 0;text-align:center}
+.poza .marka{display:block;margin-bottom:40px}
+.poza .tok{font-size:12px;letter-spacing:.2em;color:var(--muted)}
+.poza .adres{font-size:18px;margin-top:10px}
+.poza .stan-poza{font-size:22px;font-weight:700;letter-spacing:.1em;margin:36px 0 16px}
+.poza .op{color:var(--muted);font-size:14px;margin:6px 0}
+.poza .foot{border:0;margin-top:44px}
+/* RUCH przy wejsciu — raz, zero petli; wylaczony przy prefers-reduced-motion (i tam, gdzie brak wsparcia) */
+.anim{opacity:1}
+@keyframes wejscie{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion: no-preference){
+  .anim{opacity:0;animation:wejscie .34s ease-out both}
+}
+@media (max-width:640px){
+  body{padding:16px 12px}
+  .stan{font-size:34px}
+  .duza{font-size:28px}
+  .plyn-grid{flex-direction:column;gap:14px}
+  .timeline{flex-direction:column;gap:14px}
+  .tl-node{text-align:left;padding:0 0 0 20px;min-width:0}
+  .tl-node::before{top:6px;bottom:-14px;left:5px;right:auto;width:2px;height:auto}
+  .tl-node:first-child::before,.tl-node:last-child::before{left:5px;right:auto}
+  .tl-node:last-child::before{display:none}
+  .tl-dot{left:0;transform:none}
+  .staty{gap:18px}
+}</style>
+</head>
+<body>
+<main class="karta"><header class="hero anim stan-martwy" style="animation-delay:0ms"><div class="hero-top"><span class="marka">THE MACHINE</span><span class="tryb">READ ONLY · BASE</span></div><div class="hero-id"><span class="symbol">MOONBASE</span><span class="adres mono nowrap">0x73c7…5b07</span><span class="siec-tag mono">base</span></div><div class="stan stan-martwy">MARTWY</div><div class="meta">aktuariusz · wersja 3</div><p class="hero-podpis">nie przezyl 0 h (od pierwszego do ostatniego pomiaru)</p></header>
+<section class="sekcja anim" style="animation-delay:70ms"><div class="label">PLYNNOSC</div><svg class="spark" viewBox="0 0 640 168" role="img" aria-label="szereg plynnosci, 2 punktow"><line class="spk-prog" x1="14" y1="132.2" x2="624" y2="132.2" /><text class="spk-prog-lab" x="624" y="127.2" text-anchor="end">prog smierci 95%</text><polyline class="spk-line" points="14.0,21.6 624.0,20.0" /><circle class="pt" cx="14.0" cy="21.6" r="3.2" /><circle class="pt" cx="624.0" cy="20.0" r="3.2" /><text class="spk-val" x="14.0" y="12.6" text-anchor="start">$12 278</text><text class="spk-val" x="624.0" y="11.0" text-anchor="end">$12 442</text></svg><div class="plyn-grid"><div class="plyn-poz"><div class="label">PIERWSZY POMIAR</div><div class="plyn-kwota mono nowrap">$12 278</div></div><div class="plyn-poz"><div class="label">OSTATNI POMIAR</div><div class="plyn-kwota mono nowrap">$12 442</div></div></div><div class="iloraz mono">1,01×</div><div class="prog">prog smierci 95% spadku: NIE</div></section>
+<section class="sekcja anim" style="animation-delay:140ms"><div class="label">STAWKA BAZOWA</div><div class="duza">99%</div><div class="pod mono">n = 2899</div><div class="pod">koszyk $5-20k kopia</div></section>
+<section class="sekcja anim" style="animation-delay:210ms"><div class="label">HIPOTEZA</div><div class="timeline"><div class="tl-node"><span class="tl-dot"></span><span class="tl-lab">hipoteza</span><span class="tl-val">umrze</span></div><div class="tl-node"><span class="tl-dot"></span><span class="tl-lab">zarejestrowana</span><span class="tl-val mono">2026-09-06</span></div><div class="tl-node"><span class="tl-dot"></span><span class="tl-lab">termin</span><span class="tl-val mono">2026-09-13</span></div><div class="tl-node"><span class="tl-dot"></span><span class="tl-lab">rozliczono</span><span class="tl-val mono">2026-09-14</span></div></div></section>
+<section class="sekcja anim" style="animation-delay:280ms"><div class="label">POMIAR DOZORU</div><div class="pod mono">indeks z 2026-09-17 08:39 UTC</div><div class="staty"><div class="stat"><div class="n mono">32</div><div class="co">punktow</div></div><div class="stat"><div class="n mono">3</div><div class="co">braki pomiaru</div><div class="co">3 sprzed wdrozenia B30</div></div><div class="stat"><div class="n mono">0</div><div class="co">zmian puli</div></div></div><div class="punkt"><div class="co">OSTATNI PUNKT</div><span class="w mono nowrap">2026-09-07 06:03 UTC</span> <span class="w mono nowrap">$12 046,13</span></div></section>
+<section class="sekcja anim" style="animation-delay:350ms"><div class="label">CZEGO NIE WIEMY</div><ul class="brak"><li><div class="co">SYMULACJA SPRZEDAZY</div><div class="w">NIEWYKONANA — B29/B81 nie uruchomione dla tego tokena</div></li><li><div class="co">LINKI</div><div class="w">niezweryfikowane</div></li></ul></section>
+<div class="foot anim" style="animation-delay:420ms"><div>pomiar z <span class="mono">2026-09-06 03:22</span> UTC</div><div class="disc">to nie jest porada inwestycyjna</div></div></main>
+<div class="foot"><div>wyrok z <span class="mono">14.09</span> · karta wygenerowana <span class="mono">22.09</span></div></div>
+</body>
+</html>

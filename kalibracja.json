@@ -1,8 +1,8 @@
 {
-  "n_rozliczonych": 5407,
-  "p_srednie": 0.9708706121694018,
-  "faktyczna_smiertelnosc": 0.9282411688551877,
-  "stan_na": "2026-09-28T21:54:34.466Z",
+  "n_rozliczonych": 5451,
+  "p_srednie": 0.9709064758759784,
+  "faktyczna_smiertelnosc": 0.9297376628141626,
+  "stan_na": "2026-09-29T05:09:16.158Z",
   "sieci": [
     "base",
     "bsc"

@@ -5,7 +5,7 @@
  "modele": [
   {
    "id": "3d-palac",
-   "plik": "3d/3d-palac.glb",
+   "plik": "modele/palac.glb",
    "zastepuje": "budowla prestiżowa: pałac",
    "kategoria": "budowla_prestizowa",
    "bajty": 64712,
@@ -13,7 +13,7 @@
   },
   {
    "id": "3d-obserwatorium",
-   "plik": "3d/3d-obserwatorium.glb",
+   "plik": "modele/obserwatorium.glb",
    "zastepuje": "budowla prestiżowa: obserwatorium",
    "kategoria": "budowla_prestizowa",
    "bajty": 83080,
@@ -21,7 +21,7 @@
   },
   {
    "id": "3d-oranzeria",
-   "plik": "3d/3d-oranzeria.glb",
+   "plik": "modele/oranzeria.glb",
    "zastepuje": "budowla prestiżowa: oranżeria",
    "kategoria": "budowla_prestizowa",
    "bajty": 115960,
@@ -29,7 +29,7 @@
   },
   {
    "id": "3d-latarnia",
-   "plik": "3d/3d-latarnia.glb",
+   "plik": "modele/latarnia.glb",
    "zastepuje": "budowla prestiżowa: latarnia orbitalna",
    "kategoria": "budowla_prestizowa",
    "bajty": 80904,
@@ -37,7 +37,7 @@
   },
   {
    "id": "3d-wieza-portu",
-   "plik": "3d/3d-wieza-portu.glb",
+   "plik": "modele/wieza-portu.glb",
    "zastepuje": "port kosmiczny",
    "kategoria": "port",
    "bajty": 89084,
@@ -45,7 +45,7 @@
   },
   {
    "id": "3d-stadion",
-   "plik": "3d/3d-stadion.glb",
+   "plik": "modele/stadion.glb",
    "zastepuje": "lokal: stadion",
    "kategoria": "lokal",
    "bajty": 73724,
@@ -53,7 +53,7 @@
   },
   {
    "id": "3d-sterowiec",
-   "plik": "3d/3d-sterowiec.glb",
+   "plik": "modele/sterowiec.glb",
    "zastepuje": "reklama w ruchu: sterowiec",
    "kategoria": "reklama_w_ruchu",
    "bajty": 61360,
@@ -61,7 +61,7 @@
   },
   {
    "id": "3d-pomnik-kolonii",
-   "plik": "3d/3d-pomnik-kolonii.glb",
+   "plik": "modele/pomnik-kolonii.glb",
    "zastepuje": "wspólny cel kolonii: plac z pomnikiem",
    "kategoria": "wspolny_cel_kolonii",
    "bajty": 62368,
@@ -69,7 +69,7 @@
   },
   {
    "id": "3d-most-kolonii",
-   "plik": "3d/3d-most-kolonii.glb",
+   "plik": "modele/most-kolonii.glb",
    "zastepuje": "wspólny cel: most łączący dwie kolonie",
    "kategoria": "wspolny_cel_kolonii",
    "bajty": 102492,
@@ -77,7 +77,7 @@
   },
   {
    "id": "3d-stacja-orbitalna",
-   "plik": "3d/3d-stacja-orbitalna.glb",
+   "plik": "modele/stacja-orbitalna.glb",
    "zastepuje": "stacja orbitalna wokół słońca (aukcja)",
    "kategoria": "stacja_orbitalna",
    "bajty": 68512,
@@ -85,7 +85,7 @@
   },
   {
    "id": "3d-dom",
-   "plik": "3d/3d-dom.glb",
+   "plik": "modele/dom.glb",
    "zastepuje": "wariant: dom",
    "kategoria": "wariant_budynku",
    "bajty": 68564,
@@ -93,7 +93,7 @@
   },
   {
    "id": "3d-kamienica",
-   "plik": "3d/3d-kamienica.glb",
+   "plik": "modele/kamienica.glb",
    "zastepuje": "wariant: kamienica",
    "kategoria": "wariant_budynku",
    "bajty": 66012,
@@ -101,7 +101,7 @@
   },
   {
    "id": "3d-wiezowiec",
-   "plik": "3d/3d-wiezowiec.glb",
+   "plik": "modele/wiezowiec.glb",
    "zastepuje": "wariant: wieżowiec",
    "kategoria": "wariant_budynku",
    "bajty": 78096,
@@ -109,7 +109,7 @@
   },
   {
    "id": "3d-kawiarnia",
-   "plik": "3d/3d-kawiarnia.glb",
+   "plik": "modele/kawiarnia.glb",
    "zastepuje": "lokal: kawiarnia",
    "kategoria": "lokal",
    "bajty": 90304,
@@ -117,7 +117,7 @@
   },
   {
    "id": "3d-taksowka",
-   "plik": "3d/3d-taksowka.glb",
+   "plik": "modele/taksowka.glb",
    "zastepuje": "reklama w ruchu: taksówka",
    "kategoria": "reklama_w_ruchu",
    "bajty": 113924,

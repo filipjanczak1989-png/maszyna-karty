@@ -1,0 +1,1344 @@
+{
+ "tlo-mglawica-1": {
+  "status": "ok",
+  "hash": "15e6e24af38e6da7",
+  "bajty": 17616,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.063,
+  "usage": {
+   "input_tokens": 130,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 130
+   },
+   "output_tokens": 1568,
+   "output_tokens_details": {
+    "image_tokens": 1568,
+    "text_tokens": 0
+   },
+   "total_tokens": 1698
+  },
+  "kiedy": "2026-09-30T14:29:02.631Z"
+ },
+ "tlo-mglawica-2": {
+  "status": "ok",
+  "hash": "be4565ec0f296afe",
+  "bajty": 14190,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.063,
+  "usage": {
+   "input_tokens": 119,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 119
+   },
+   "output_tokens": 1568,
+   "output_tokens_details": {
+    "image_tokens": 1568,
+    "text_tokens": 0
+   },
+   "total_tokens": 1687
+  },
+  "kiedy": "2026-09-30T14:29:19.209Z"
+ },
+ "naglowek-planeta-0": {
+  "status": "ok",
+  "hash": "9d6212c965dc9b2c",
+  "bajty": 25866,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.063,
+  "usage": {
+   "input_tokens": 127,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 127
+   },
+   "output_tokens": 1568,
+   "output_tokens_details": {
+    "image_tokens": 1568,
+    "text_tokens": 0
+   },
+   "total_tokens": 1695
+  },
+  "kiedy": "2026-09-30T14:29:37.246Z"
+ },
+ "naglowek-planeta-1": {
+  "status": "ok",
+  "hash": "0eb7c9b4c402d07d",
+  "bajty": 56830,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.063,
+  "usage": {
+   "input_tokens": 126,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 126
+   },
+   "output_tokens": 1568,
+   "output_tokens_details": {
+    "image_tokens": 1568,
+    "text_tokens": 0
+   },
+   "total_tokens": 1694
+  },
+  "kiedy": "2026-09-30T14:29:54.874Z"
+ },
+ "naglowek-planeta-2": {
+  "status": "ok",
+  "hash": "5de9da455ed61ca5",
+  "bajty": 21816,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.063,
+  "usage": {
+   "input_tokens": 126,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 126
+   },
+   "output_tokens": 1568,
+   "output_tokens_details": {
+    "image_tokens": 1568,
+    "text_tokens": 0
+   },
+   "total_tokens": 1694
+  },
+  "kiedy": "2026-09-30T14:30:10.063Z"
+ },
+ "naglowek-planeta-3": {
+  "status": "ok",
+  "hash": "05d4e2a67a2bc028",
+  "bajty": 18976,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.063,
+  "usage": {
+   "input_tokens": 126,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 126
+   },
+   "output_tokens": 1568,
+   "output_tokens_details": {
+    "image_tokens": 1568,
+    "text_tokens": 0
+   },
+   "total_tokens": 1694
+  },
+  "kiedy": "2026-09-30T14:30:25.120Z"
+ },
+ "naglowek-planeta-4": {
+  "status": "ok",
+  "hash": "622302cbc4d2575c",
+  "bajty": 23744,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.063,
+  "usage": {
+   "input_tokens": 126,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 126
+   },
+   "output_tokens": 1568,
+   "output_tokens_details": {
+    "image_tokens": 1568,
+    "text_tokens": 0
+   },
+   "total_tokens": 1694
+  },
+  "kiedy": "2026-09-30T14:30:42.567Z"
+ },
+ "naglowek-planeta-5": {
+  "status": "ok",
+  "hash": "d054bd7a94f713ce",
+  "bajty": 20660,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.063,
+  "usage": {
+   "input_tokens": 126,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 126
+   },
+   "output_tokens": 1568,
+   "output_tokens_details": {
+    "image_tokens": 1568,
+    "text_tokens": 0
+   },
+   "total_tokens": 1694
+  },
+  "kiedy": "2026-09-30T14:31:00.738Z"
+ },
+ "naglowek-planeta-6": {
+  "status": "ok",
+  "hash": "d6c5f522348b570c",
+  "bajty": 31916,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.063,
+  "usage": {
+   "input_tokens": 126,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 126
+   },
+   "output_tokens": 1568,
+   "output_tokens_details": {
+    "image_tokens": 1568,
+    "text_tokens": 0
+   },
+   "total_tokens": 1694
+  },
+  "kiedy": "2026-09-30T14:31:19.459Z"
+ },
+ "naglowek-planeta-7": {
+  "status": "ok",
+  "hash": "e31d47ea8d9e92f0",
+  "bajty": 50726,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.063,
+  "usage": {
+   "input_tokens": 127,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 127
+   },
+   "output_tokens": 1568,
+   "output_tokens_details": {
+    "image_tokens": 1568,
+    "text_tokens": 0
+   },
+   "total_tokens": 1695
+  },
+  "kiedy": "2026-09-30T14:31:36.064Z"
+ },
+ "naglowek-slonce": {
+  "status": "ok",
+  "hash": "266375c28c460ba7",
+  "bajty": 58786,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.063,
+  "usage": {
+   "input_tokens": 118,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 118
+   },
+   "output_tokens": 1568,
+   "output_tokens_details": {
+    "image_tokens": 1568,
+    "text_tokens": 0
+   },
+   "total_tokens": 1686
+  },
+  "kiedy": "2026-09-30T14:31:55.909Z"
+ },
+ "fasada-dom": {
+  "status": "ok",
+  "hash": "9ff1a44fff72dc48",
+  "bajty": 21392,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 129,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 129
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1185
+  },
+  "kiedy": "2026-09-30T14:32:14.096Z"
+ },
+ "fasada-kamienica": {
+  "status": "ok",
+  "hash": "6b3bf6d2af4f632a",
+  "bajty": 25440,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 132,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 132
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1188
+  },
+  "kiedy": "2026-09-30T14:32:30.475Z"
+ },
+ "fasada-wiezowiec": {
+  "status": "ok",
+  "hash": "ce9cb2eafea00376",
+  "bajty": 42416,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 130,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 130
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1186
+  },
+  "kiedy": "2026-09-30T14:32:46.101Z"
+ },
+ "fasada-hotel": {
+  "status": "ok",
+  "hash": "45aa4999d2ebda95",
+  "bajty": 43622,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 129,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 129
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1185
+  },
+  "kiedy": "2026-09-30T14:33:01.858Z"
+ },
+ "fasada-centrum": {
+  "status": "ok",
+  "hash": "b8eb11ad02679ad3",
+  "bajty": 72536,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 129,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 129
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1185
+  },
+  "kiedy": "2026-09-30T14:33:19.367Z"
+ },
+ "fasada-kino": {
+  "status": "ok",
+  "hash": "8b58ab5a2b3c3693",
+  "bajty": 23074,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 129,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 129
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1185
+  },
+  "kiedy": "2026-09-30T14:33:37.119Z"
+ },
+ "lokal-kawiarnia": {
+  "status": "ok",
+  "hash": "51529c95520f5637",
+  "bajty": 33404,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.063,
+  "usage": {
+   "input_tokens": 127,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 127
+   },
+   "output_tokens": 1568,
+   "output_tokens_details": {
+    "image_tokens": 1568,
+    "text_tokens": 0
+   },
+   "total_tokens": 1695
+  },
+  "kiedy": "2026-09-30T14:34:01.007Z"
+ },
+ "lokal-restauracja": {
+  "status": "ok",
+  "hash": "7bb3dee1ab7fe6e8",
+  "bajty": 44726,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.063,
+  "usage": {
+   "input_tokens": 131,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 131
+   },
+   "output_tokens": 1568,
+   "output_tokens_details": {
+    "image_tokens": 1568,
+    "text_tokens": 0
+   },
+   "total_tokens": 1699
+  },
+  "kiedy": "2026-09-30T14:34:21.585Z"
+ },
+ "lokal-sklep": {
+  "status": "ok",
+  "hash": "3558fde651401f89",
+  "bajty": 89978,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.063,
+  "usage": {
+   "input_tokens": 128,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 128
+   },
+   "output_tokens": 1568,
+   "output_tokens_details": {
+    "image_tokens": 1568,
+    "text_tokens": 0
+   },
+   "total_tokens": 1696
+  },
+  "kiedy": "2026-09-30T14:34:44.459Z"
+ },
+ "lokal-silownia": {
+  "status": "ok",
+  "hash": "177caa68d397f108",
+  "bajty": 62204,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.063,
+  "usage": {
+   "input_tokens": 127,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 127
+   },
+   "output_tokens": 1568,
+   "output_tokens_details": {
+    "image_tokens": 1568,
+    "text_tokens": 0
+   },
+   "total_tokens": 1695
+  },
+  "kiedy": "2026-09-30T14:35:09.241Z"
+ },
+ "lokal-kino": {
+  "status": "ok",
+  "hash": "c32cbe0a05e5791e",
+  "bajty": 47316,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.063,
+  "usage": {
+   "input_tokens": 127,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 127
+   },
+   "output_tokens": 1568,
+   "output_tokens_details": {
+    "image_tokens": 1568,
+    "text_tokens": 0
+   },
+   "total_tokens": 1695
+  },
+  "kiedy": "2026-09-30T14:35:31.782Z"
+ },
+ "lokal-szkola": {
+  "status": "ok",
+  "hash": "d021ed742c44bf31",
+  "bajty": 60078,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.063,
+  "usage": {
+   "input_tokens": 133,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 133
+   },
+   "output_tokens": 1568,
+   "output_tokens_details": {
+    "image_tokens": 1568,
+    "text_tokens": 0
+   },
+   "total_tokens": 1701
+  },
+  "kiedy": "2026-09-30T14:35:52.943Z"
+ },
+ "lokal-hotel": {
+  "status": "ok",
+  "hash": "28dc4fe1e78194cc",
+  "bajty": 44390,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.063,
+  "usage": {
+   "input_tokens": 126,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 126
+   },
+   "output_tokens": 1568,
+   "output_tokens_details": {
+    "image_tokens": 1568,
+    "text_tokens": 0
+   },
+   "total_tokens": 1694
+  },
+  "kiedy": "2026-09-30T14:36:13.457Z"
+ },
+ "lokal-centrum": {
+  "status": "ok",
+  "hash": "835cc5d64869d2de",
+  "bajty": 47950,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.063,
+  "usage": {
+   "input_tokens": 127,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 127
+   },
+   "output_tokens": 1568,
+   "output_tokens_details": {
+    "image_tokens": 1568,
+    "text_tokens": 0
+   },
+   "total_tokens": 1695
+  },
+  "kiedy": "2026-09-30T14:36:34.429Z"
+ },
+ "lokal-stadion": {
+  "status": "ok",
+  "hash": "025b4f628e83ce26",
+  "bajty": 51606,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.063,
+  "usage": {
+   "input_tokens": 132,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 132
+   },
+   "output_tokens": 1568,
+   "output_tokens_details": {
+    "image_tokens": 1568,
+    "text_tokens": 0
+   },
+   "total_tokens": 1700
+  },
+  "kiedy": "2026-09-30T14:36:55.055Z"
+ },
+ "bilbord-przyklad-1": {
+  "status": "ok",
+  "hash": "60345874d497c6b2",
+  "bajty": 25344,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.063,
+  "usage": {
+   "input_tokens": 121,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 121
+   },
+   "output_tokens": 1568,
+   "output_tokens_details": {
+    "image_tokens": 1568,
+    "text_tokens": 0
+   },
+   "total_tokens": 1689
+  },
+  "kiedy": "2026-09-30T14:37:12.113Z"
+ },
+ "bilbord-przyklad-2": {
+  "status": "ok",
+  "hash": "3d489b3ac0c92793",
+  "bajty": 26388,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.063,
+  "usage": {
+   "input_tokens": 121,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 121
+   },
+   "output_tokens": 1568,
+   "output_tokens_details": {
+    "image_tokens": 1568,
+    "text_tokens": 0
+   },
+   "total_tokens": 1689
+  },
+  "kiedy": "2026-09-30T14:37:29.734Z"
+ },
+ "bilbord-przyklad-3": {
+  "status": "ok",
+  "hash": "9ad371cc81a2fd34",
+  "bajty": 35088,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.063,
+  "usage": {
+   "input_tokens": 119,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 119
+   },
+   "output_tokens": 1568,
+   "output_tokens_details": {
+    "image_tokens": 1568,
+    "text_tokens": 0
+   },
+   "total_tokens": 1687
+  },
+  "kiedy": "2026-09-30T14:37:45.106Z"
+ },
+ "bilbord-przyklad-4": {
+  "status": "ok",
+  "hash": "e346bf50b7c5361e",
+  "bajty": 52686,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.063,
+  "usage": {
+   "input_tokens": 120,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 120
+   },
+   "output_tokens": 1568,
+   "output_tokens_details": {
+    "image_tokens": 1568,
+    "text_tokens": 0
+   },
+   "total_tokens": 1688
+  },
+  "kiedy": "2026-09-30T14:38:02.104Z"
+ },
+ "odznaka-kadet": {
+  "status": "ok",
+  "hash": "29a3c60c220ee946",
+  "bajty": 209500,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 122,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 122
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1178
+  },
+  "kiedy": "2026-09-30T14:38:21.693Z"
+ },
+ "odznaka-kartograf": {
+  "status": "ok",
+  "hash": "a29495dce643e2a8",
+  "bajty": 246660,
+  "webp_jakosc": 50,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 123,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 123
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1179
+  },
+  "kiedy": "2026-09-30T14:38:40.785Z"
+ },
+ "odznaka-tropiciel": {
+  "status": "ok",
+  "hash": "643c48bb9b0bcd31",
+  "bajty": 232562,
+  "webp_jakosc": 70,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 125,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 125
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1181
+  },
+  "kiedy": "2026-09-30T14:38:57.748Z"
+ },
+ "odznaka-swiadek": {
+  "status": "ok",
+  "hash": "7f2066506e139f7c",
+  "bajty": 242290,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 128,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 128
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1184
+  },
+  "kiedy": "2026-09-30T14:39:15.125Z"
+ },
+ "odznaka-uczciwa": {
+  "status": "ok",
+  "hash": "40f1d62944db97af",
+  "bajty": 214518,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 122,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 122
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1178
+  },
+  "kiedy": "2026-09-30T14:39:32.920Z"
+ },
+ "odznaka-archeolog": {
+  "status": "ok",
+  "hash": "094f7956fd0fd4b3",
+  "bajty": 250254,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 123,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 123
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1179
+  },
+  "kiedy": "2026-09-30T14:39:51.436Z"
+ },
+ "odznaka-genealog": {
+  "status": "ok",
+  "hash": "97ea7e5fc5e081e8",
+  "bajty": 224952,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 124,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 124
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1180
+  },
+  "kiedy": "2026-09-30T14:40:07.958Z"
+ },
+ "odznaka-pilot": {
+  "status": "ok",
+  "hash": "a361654827fac144",
+  "bajty": 250476,
+  "webp_jakosc": 40,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 123,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 123
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1179
+  },
+  "kiedy": "2026-09-30T14:40:28.491Z"
+ },
+ "odznaka-straznik": {
+  "status": "ok",
+  "hash": "fd383bf0e6bd32ee",
+  "bajty": 229092,
+  "webp_jakosc": 70,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 125,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 125
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1181
+  },
+  "kiedy": "2026-09-30T14:40:44.461Z"
+ },
+ "odznaka-mieszkaniec": {
+  "status": "ok",
+  "hash": "427bbeee22fdaa28",
+  "bajty": 238980,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 125,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 125
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1181
+  },
+  "kiedy": "2026-09-30T14:41:03.026Z"
+ },
+ "odznaka-podroznik": {
+  "status": "ok",
+  "hash": "24763f80621d7b3b",
+  "bajty": 244914,
+  "webp_jakosc": 70,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 124,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 124
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1180
+  },
+  "kiedy": "2026-09-30T14:41:21.045Z"
+ },
+ "odznaka-obiezyswiat": {
+  "status": "ok",
+  "hash": "e5d03e9fdff5ac71",
+  "bajty": 230892,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 127,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 127
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1183
+  },
+  "kiedy": "2026-09-30T14:41:38.264Z"
+ },
+ "odznaka-poszukiwacz": {
+  "status": "ok",
+  "hash": "63a42962afce1ed4",
+  "bajty": 229330,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 121,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 121
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1177
+  },
+  "kiedy": "2026-09-30T14:41:56.337Z"
+ },
+ "odznaka-wytrwaly": {
+  "status": "ok",
+  "hash": "233be9bcbe20033a",
+  "bajty": 170246,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 125,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 125
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1181
+  },
+  "kiedy": "2026-09-30T14:42:14.493Z"
+ },
+ "pieczatka-ramka": {
+  "status": "ok",
+  "hash": "21ad2261641645c8",
+  "bajty": 102822,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 114,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 114
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1170
+  },
+  "kiedy": "2026-09-30T14:42:31.270Z"
+ },
+ "og-obraz": {
+  "status": "ok",
+  "hash": "ee30f1435fa6135f",
+  "bajty": 77322,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.063,
+  "usage": {
+   "input_tokens": 125,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 125
+   },
+   "output_tokens": 1568,
+   "output_tokens_details": {
+    "image_tokens": 1568,
+    "text_tokens": 0
+   },
+   "total_tokens": 1693
+  },
+  "kiedy": "2026-09-30T14:42:52.343Z"
+ },
+ "3d-palac": {
+  "status": "ok",
+  "hash": "37399eb85ebdf32b",
+  "bajty": 32786,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 156,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 156
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1212
+  },
+  "kiedy": "2026-09-30T14:43:09.797Z"
+ },
+ "3d-obserwatorium": {
+  "status": "ok",
+  "hash": "12c2ccee11cd24bc",
+  "bajty": 28752,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 149,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 149
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1205
+  },
+  "kiedy": "2026-09-30T14:43:25.004Z"
+ },
+ "3d-oranzeria": {
+  "status": "ok",
+  "hash": "0431fb30eedcfb09",
+  "bajty": 31448,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 146,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 146
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1202
+  },
+  "kiedy": "2026-09-30T14:43:40.663Z"
+ },
+ "3d-latarnia": {
+  "status": "ok",
+  "hash": "42032b649e1ad060",
+  "bajty": 15106,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 147,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 147
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1203
+  },
+  "kiedy": "2026-09-30T14:43:55.811Z"
+ },
+ "3d-wieza-portu": {
+  "status": "ok",
+  "hash": "4a1ade322b2b7848",
+  "bajty": 23744,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 147,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 147
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1203
+  },
+  "kiedy": "2026-09-30T14:44:11.370Z"
+ },
+ "3d-stadion": {
+  "status": "ok",
+  "hash": "95b627774f6da680",
+  "bajty": 29980,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 148,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 148
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1204
+  },
+  "kiedy": "2026-09-30T14:44:25.633Z"
+ },
+ "3d-sterowiec": {
+  "status": "ok",
+  "hash": "bf56729d8d43b11d",
+  "bajty": 13700,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 151,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 151
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1207
+  },
+  "kiedy": "2026-09-30T14:44:41.247Z"
+ },
+ "3d-pomnik-kolonii": {
+  "status": "ok",
+  "hash": "cde87e19002c2929",
+  "bajty": 20270,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 152,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 152
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1208
+  },
+  "kiedy": "2026-09-30T14:44:55.450Z"
+ },
+ "3d-most-kolonii": {
+  "status": "ok",
+  "hash": "63f1013cd278b8dd",
+  "bajty": 31226,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 147,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 147
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1203
+  },
+  "kiedy": "2026-09-30T14:45:09.940Z"
+ },
+ "3d-stacja-orbitalna": {
+  "status": "ok",
+  "hash": "a81add3912eb2273",
+  "bajty": 43806,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 145,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 145
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1201
+  },
+  "kiedy": "2026-09-30T14:45:27.764Z"
+ },
+ "3d-dom": {
+  "status": "ok",
+  "hash": "0b486ac67c0441a8",
+  "bajty": 11294,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 147,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 147
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1203
+  },
+  "kiedy": "2026-09-30T14:45:42.990Z"
+ },
+ "3d-kamienica": {
+  "status": "ok",
+  "hash": "800c33f42e5db0a1",
+  "bajty": 14308,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 146,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 146
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1202
+  },
+  "kiedy": "2026-09-30T14:45:56.914Z"
+ },
+ "3d-wiezowiec": {
+  "status": "ok",
+  "hash": "84cfeaad94b04f88",
+  "bajty": 29230,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 148,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 148
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1204
+  },
+  "kiedy": "2026-09-30T14:46:11.241Z"
+ },
+ "3d-kawiarnia": {
+  "status": "ok",
+  "hash": "412402c55efb6ad2",
+  "bajty": 19514,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 145,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 145
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1201
+  },
+  "kiedy": "2026-09-30T14:46:26.973Z"
+ },
+ "3d-taksowka": {
+  "status": "ok",
+  "hash": "0fa229024222a770",
+  "bajty": 24874,
+  "webp_jakosc": 80,
+  "skalowano": false,
+  "koszt_usd": 0.042,
+  "usage": {
+   "input_tokens": 147,
+   "input_tokens_details": {
+    "image_tokens": 0,
+    "text_tokens": 147
+   },
+   "output_tokens": 1056,
+   "output_tokens_details": {
+    "image_tokens": 1056,
+    "text_tokens": 0
+   },
+   "total_tokens": 1203
+  },
+  "kiedy": "2026-09-30T14:46:43.652Z"
+ }
+}

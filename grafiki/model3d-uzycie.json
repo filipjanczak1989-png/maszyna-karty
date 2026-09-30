@@ -1,0 +1,127 @@
+{
+ "wersja": 1,
+ "zrodlo": "grafiki/lista-grafik.json (pole uzycie, pozycje do_3d=true) + manifest generatora 3D",
+ "format": "glb (binarny glTF 2.0), tekstury JPEG 512px, geometria Draco — budzet <=500 KB/model",
+ "modele": [
+  {
+   "id": "3d-palac",
+   "plik": "3d/3d-palac.glb",
+   "zastepuje": "budowla prestiżowa: pałac",
+   "kategoria": "budowla_prestizowa",
+   "bajty": 64712,
+   "kredyty": 30
+  },
+  {
+   "id": "3d-obserwatorium",
+   "plik": "3d/3d-obserwatorium.glb",
+   "zastepuje": "budowla prestiżowa: obserwatorium",
+   "kategoria": "budowla_prestizowa",
+   "bajty": 83080,
+   "kredyty": 30
+  },
+  {
+   "id": "3d-oranzeria",
+   "plik": "3d/3d-oranzeria.glb",
+   "zastepuje": "budowla prestiżowa: oranżeria",
+   "kategoria": "budowla_prestizowa",
+   "bajty": 115960,
+   "kredyty": 30
+  },
+  {
+   "id": "3d-latarnia",
+   "plik": "3d/3d-latarnia.glb",
+   "zastepuje": "budowla prestiżowa: latarnia orbitalna",
+   "kategoria": "budowla_prestizowa",
+   "bajty": 80904,
+   "kredyty": 30
+  },
+  {
+   "id": "3d-wieza-portu",
+   "plik": "3d/3d-wieza-portu.glb",
+   "zastepuje": "port kosmiczny",
+   "kategoria": "port",
+   "bajty": 89084,
+   "kredyty": 30
+  },
+  {
+   "id": "3d-stadion",
+   "plik": "3d/3d-stadion.glb",
+   "zastepuje": "lokal: stadion",
+   "kategoria": "lokal",
+   "bajty": 73724,
+   "kredyty": 30
+  },
+  {
+   "id": "3d-sterowiec",
+   "plik": "3d/3d-sterowiec.glb",
+   "zastepuje": "reklama w ruchu: sterowiec",
+   "kategoria": "reklama_w_ruchu",
+   "bajty": 61360,
+   "kredyty": 30
+  },
+  {
+   "id": "3d-pomnik-kolonii",
+   "plik": "3d/3d-pomnik-kolonii.glb",
+   "zastepuje": "wspólny cel kolonii: plac z pomnikiem",
+   "kategoria": "wspolny_cel_kolonii",
+   "bajty": 62368,
+   "kredyty": 30
+  },
+  {
+   "id": "3d-most-kolonii",
+   "plik": "3d/3d-most-kolonii.glb",
+   "zastepuje": "wspólny cel: most łączący dwie kolonie",
+   "kategoria": "wspolny_cel_kolonii",
+   "bajty": 102492,
+   "kredyty": 30
+  },
+  {
+   "id": "3d-stacja-orbitalna",
+   "plik": "3d/3d-stacja-orbitalna.glb",
+   "zastepuje": "stacja orbitalna wokół słońca (aukcja)",
+   "kategoria": "stacja_orbitalna",
+   "bajty": 68512,
+   "kredyty": 30
+  },
+  {
+   "id": "3d-dom",
+   "plik": "3d/3d-dom.glb",
+   "zastepuje": "wariant: dom",
+   "kategoria": "wariant_budynku",
+   "bajty": 68564,
+   "kredyty": 30
+  },
+  {
+   "id": "3d-kamienica",
+   "plik": "3d/3d-kamienica.glb",
+   "zastepuje": "wariant: kamienica",
+   "kategoria": "wariant_budynku",
+   "bajty": 66012,
+   "kredyty": 30
+  },
+  {
+   "id": "3d-wiezowiec",
+   "plik": "3d/3d-wiezowiec.glb",
+   "zastepuje": "wariant: wieżowiec",
+   "kategoria": "wariant_budynku",
+   "bajty": 78096,
+   "kredyty": 30
+  },
+  {
+   "id": "3d-kawiarnia",
+   "plik": "3d/3d-kawiarnia.glb",
+   "zastepuje": "lokal: kawiarnia",
+   "kategoria": "lokal",
+   "bajty": 90304,
+   "kredyty": 30
+  },
+  {
+   "id": "3d-taksowka",
+   "plik": "3d/3d-taksowka.glb",
+   "zastepuje": "reklama w ruchu: taksówka",
+   "kategoria": "reklama_w_ruchu",
+   "bajty": 113924,
+   "kredyty": 30
+  }
+ ]
+}

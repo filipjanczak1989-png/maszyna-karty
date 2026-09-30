@@ -1,0 +1,599 @@
+{
+ "wersja": 1,
+ "zrodlo": "grafiki/lista-grafik.json (wersja 2)",
+ "baza": "ADRESY.grafiki w src/kosmos-szablon.html (+ ścieżka)",
+ "zapas": "brak pliku = wygląd z kodu (kolor, kształt), nigdy pusty prostokąt",
+ "grafiki": [
+  {
+   "id": "tlo-mglawica-1",
+   "sciezka": "tlo/mglawica-1.webp",
+   "przeznaczenie": "daleka sfera",
+   "wpiecie": {
+    "gdzie": "scena kosmosu",
+    "warunek": "po pierwszej klatce",
+    "element": "sfera tła wokół kamery"
+   },
+   "tura": 1
+  },
+  {
+   "id": "tlo-mglawica-2",
+   "sciezka": "tlo/mglawica-2.webp",
+   "przeznaczenie": "tło zapasowe / sezonowe",
+   "wpiecie": null,
+   "tura": 2
+  },
+  {
+   "id": "naglowek-planeta-0",
+   "sciezka": "naglowki/planeta-0.webp",
+   "przeznaczenie": "tło karty ciała palety 0",
+   "wpiecie": {
+    "gdzie": "karta ciała (planeta, księżyc)",
+    "warunek": "paleta ciała = 0 (hashS(id + \":pal\") · 8, jak powierzchnia globu)",
+    "element": "#kartaObraz"
+   },
+   "tura": 1
+  },
+  {
+   "id": "naglowek-planeta-1",
+   "sciezka": "naglowki/planeta-1.webp",
+   "przeznaczenie": "tło karty ciała palety 1",
+   "wpiecie": {
+    "gdzie": "karta ciała (planeta, księżyc)",
+    "warunek": "paleta ciała = 1 (hashS(id + \":pal\") · 8, jak powierzchnia globu)",
+    "element": "#kartaObraz"
+   },
+   "tura": 1
+  },
+  {
+   "id": "naglowek-planeta-2",
+   "sciezka": "naglowki/planeta-2.webp",
+   "przeznaczenie": "tło karty ciała palety 2",
+   "wpiecie": {
+    "gdzie": "karta ciała (planeta, księżyc)",
+    "warunek": "paleta ciała = 2 (hashS(id + \":pal\") · 8, jak powierzchnia globu)",
+    "element": "#kartaObraz"
+   },
+   "tura": 1
+  },
+  {
+   "id": "naglowek-planeta-3",
+   "sciezka": "naglowki/planeta-3.webp",
+   "przeznaczenie": "tło karty ciała palety 3",
+   "wpiecie": {
+    "gdzie": "karta ciała (planeta, księżyc)",
+    "warunek": "paleta ciała = 3 (hashS(id + \":pal\") · 8, jak powierzchnia globu)",
+    "element": "#kartaObraz"
+   },
+   "tura": 1
+  },
+  {
+   "id": "naglowek-planeta-4",
+   "sciezka": "naglowki/planeta-4.webp",
+   "przeznaczenie": "tło karty ciała palety 4",
+   "wpiecie": {
+    "gdzie": "karta ciała (planeta, księżyc)",
+    "warunek": "paleta ciała = 4 (hashS(id + \":pal\") · 8, jak powierzchnia globu)",
+    "element": "#kartaObraz"
+   },
+   "tura": 1
+  },
+  {
+   "id": "naglowek-planeta-5",
+   "sciezka": "naglowki/planeta-5.webp",
+   "przeznaczenie": "tło karty ciała palety 5",
+   "wpiecie": {
+    "gdzie": "karta ciała (planeta, księżyc)",
+    "warunek": "paleta ciała = 5 (hashS(id + \":pal\") · 8, jak powierzchnia globu)",
+    "element": "#kartaObraz"
+   },
+   "tura": 1
+  },
+  {
+   "id": "naglowek-planeta-6",
+   "sciezka": "naglowki/planeta-6.webp",
+   "przeznaczenie": "tło karty ciała palety 6",
+   "wpiecie": {
+    "gdzie": "karta ciała (planeta, księżyc)",
+    "warunek": "paleta ciała = 6 (hashS(id + \":pal\") · 8, jak powierzchnia globu)",
+    "element": "#kartaObraz"
+   },
+   "tura": 1
+  },
+  {
+   "id": "naglowek-planeta-7",
+   "sciezka": "naglowki/planeta-7.webp",
+   "przeznaczenie": "tło karty ciała palety 7",
+   "wpiecie": {
+    "gdzie": "karta ciała (planeta, księżyc)",
+    "warunek": "paleta ciała = 7 (hashS(id + \":pal\") · 8, jak powierzchnia globu)",
+    "element": "#kartaObraz"
+   },
+   "tura": 1
+  },
+  {
+   "id": "naglowek-slonce",
+   "sciezka": "naglowki/slonce.webp",
+   "przeznaczenie": "tło karty słońca",
+   "wpiecie": {
+    "gdzie": "karta ciała (słońce)",
+    "warunek": "rodzaj = słońce",
+    "element": "#kartaObraz"
+   },
+   "tura": 1
+  },
+  {
+   "id": "fasada-dom",
+   "sciezka": "fasady/dom.webp",
+   "przeznaczenie": "ściana budynku dom",
+   "wpiecie": {
+    "gdzie": "dzielnica: bryły budynków typu dom",
+    "warunek": "typ budynku = dom",
+    "element": "material.map ściany"
+   },
+   "tura": 1
+  },
+  {
+   "id": "fasada-kamienica",
+   "sciezka": "fasady/kamienica.webp",
+   "przeznaczenie": "ściana budynku kamienica",
+   "wpiecie": {
+    "gdzie": "dzielnica: bryły budynków typu kamienica",
+    "warunek": "typ budynku = kamienica",
+    "element": "material.map ściany"
+   },
+   "tura": 1
+  },
+  {
+   "id": "fasada-wiezowiec",
+   "sciezka": "fasady/wiezowiec.webp",
+   "przeznaczenie": "ściana budynku wiezowiec",
+   "wpiecie": {
+    "gdzie": "dzielnica: bryły budynków typu wiezowiec",
+    "warunek": "typ budynku = wiezowiec",
+    "element": "material.map ściany"
+   },
+   "tura": 1
+  },
+  {
+   "id": "fasada-hotel",
+   "sciezka": "fasady/hotel.webp",
+   "przeznaczenie": "ściana budynku hotel",
+   "wpiecie": {
+    "gdzie": "dzielnica: bryły budynków typu hotel",
+    "warunek": "typ budynku = hotel",
+    "element": "material.map ściany"
+   },
+   "tura": 1
+  },
+  {
+   "id": "fasada-centrum",
+   "sciezka": "fasady/centrum.webp",
+   "przeznaczenie": "ściana budynku centrum",
+   "wpiecie": {
+    "gdzie": "dzielnica: bryły budynków typu centrum",
+    "warunek": "typ budynku = centrum",
+    "element": "material.map ściany"
+   },
+   "tura": 1
+  },
+  {
+   "id": "fasada-kino",
+   "sciezka": "fasady/kino.webp",
+   "przeznaczenie": "ściana budynku kino",
+   "wpiecie": {
+    "gdzie": "dzielnica: bryły budynków typu kino",
+    "warunek": "typ budynku = kino",
+    "element": "material.map ściany"
+   },
+   "tura": 1
+  },
+  {
+   "id": "lokal-kawiarnia",
+   "sciezka": "lokale/kawiarnia.webp",
+   "przeznaczenie": "nagłówek karty lokalu kawiarnia",
+   "wpiecie": {
+    "gdzie": "karta lokalu",
+    "warunek": "typ lokalu = kawiarnia",
+    "element": "#kartaObraz"
+   },
+   "tura": 1
+  },
+  {
+   "id": "lokal-restauracja",
+   "sciezka": "lokale/restauracja.webp",
+   "przeznaczenie": "nagłówek karty lokalu restauracja",
+   "wpiecie": {
+    "gdzie": "karta lokalu",
+    "warunek": "typ lokalu = restauracja",
+    "element": "#kartaObraz"
+   },
+   "tura": 1
+  },
+  {
+   "id": "lokal-sklep",
+   "sciezka": "lokale/sklep.webp",
+   "przeznaczenie": "nagłówek karty lokalu sklep",
+   "wpiecie": {
+    "gdzie": "karta lokalu",
+    "warunek": "typ lokalu = sklep",
+    "element": "#kartaObraz"
+   },
+   "tura": 1
+  },
+  {
+   "id": "lokal-silownia",
+   "sciezka": "lokale/silownia.webp",
+   "przeznaczenie": "nagłówek karty lokalu silownia",
+   "wpiecie": {
+    "gdzie": "karta lokalu",
+    "warunek": "typ lokalu = silownia",
+    "element": "#kartaObraz"
+   },
+   "tura": 1
+  },
+  {
+   "id": "lokal-kino",
+   "sciezka": "lokale/kino.webp",
+   "przeznaczenie": "nagłówek karty lokalu kino",
+   "wpiecie": {
+    "gdzie": "karta lokalu",
+    "warunek": "typ lokalu = kino",
+    "element": "#kartaObraz"
+   },
+   "tura": 1
+  },
+  {
+   "id": "lokal-szkola",
+   "sciezka": "lokale/szkola.webp",
+   "przeznaczenie": "nagłówek karty lokalu szkola",
+   "wpiecie": {
+    "gdzie": "karta lokalu",
+    "warunek": "typ lokalu = szkola",
+    "element": "#kartaObraz"
+   },
+   "tura": 1
+  },
+  {
+   "id": "lokal-hotel",
+   "sciezka": "lokale/hotel.webp",
+   "przeznaczenie": "nagłówek karty lokalu hotel",
+   "wpiecie": {
+    "gdzie": "karta lokalu",
+    "warunek": "typ lokalu = hotel",
+    "element": "#kartaObraz"
+   },
+   "tura": 1
+  },
+  {
+   "id": "lokal-centrum",
+   "sciezka": "lokale/centrum.webp",
+   "przeznaczenie": "nagłówek karty lokalu centrum",
+   "wpiecie": {
+    "gdzie": "karta lokalu",
+    "warunek": "typ lokalu = centrum",
+    "element": "#kartaObraz"
+   },
+   "tura": 1
+  },
+  {
+   "id": "lokal-stadion",
+   "sciezka": "lokale/stadion.webp",
+   "przeznaczenie": "nagłówek karty lokalu stadion",
+   "wpiecie": {
+    "gdzie": "karta lokalu",
+    "warunek": "typ lokalu = stadion",
+    "element": "#kartaObraz"
+   },
+   "tura": 1
+  },
+  {
+   "id": "bilbord-przyklad-1",
+   "sciezka": "bilbordy/przyklad-1.webp",
+   "przeznaczenie": "przykładowa kreacja bilbordu w trybie podglądu (bez marek)",
+   "wpiecie": null,
+   "tura": 2
+  },
+  {
+   "id": "bilbord-przyklad-2",
+   "sciezka": "bilbordy/przyklad-2.webp",
+   "przeznaczenie": "przykładowa kreacja bilbordu w trybie podglądu (bez marek)",
+   "wpiecie": null,
+   "tura": 2
+  },
+  {
+   "id": "bilbord-przyklad-3",
+   "sciezka": "bilbordy/przyklad-3.webp",
+   "przeznaczenie": "przykładowa kreacja bilbordu w trybie podglądu (bez marek)",
+   "wpiecie": null,
+   "tura": 2
+  },
+  {
+   "id": "bilbord-przyklad-4",
+   "sciezka": "bilbordy/przyklad-4.webp",
+   "przeznaczenie": "przykładowa kreacja bilbordu w trybie podglądu (bez marek)",
+   "wpiecie": null,
+   "tura": 2
+  },
+  {
+   "id": "odznaka-kadet",
+   "sciezka": "odznaki/kadet.webp",
+   "przeznaczenie": "odznaka w paszporcie",
+   "wpiecie": {
+    "gdzie": "paszport → Odznaki",
+    "warunek": "odznaka samouczek (zdobyta w kolorze, niezdobyta przygaszona)",
+    "element": ".odznaki li .znak"
+   },
+   "tura": 1
+  },
+  {
+   "id": "odznaka-kartograf",
+   "sciezka": "odznaki/kartograf.webp",
+   "przeznaczenie": "odznaka w paszporcie",
+   "wpiecie": {
+    "gdzie": "paszport → Odznaki",
+    "warunek": "odznaka uklad (zdobyta w kolorze, niezdobyta przygaszona)",
+    "element": ".odznaki li .znak"
+   },
+   "tura": 1
+  },
+  {
+   "id": "odznaka-tropiciel",
+   "sciezka": "odznaki/tropiciel.webp",
+   "przeznaczenie": "odznaka w paszporcie",
+   "wpiecie": {
+    "gdzie": "paszport → Odznaki",
+    "warunek": "odznaka recydywista (zdobyta w kolorze, niezdobyta przygaszona)",
+    "element": ".odznaki li .znak"
+   },
+   "tura": 1
+  },
+  {
+   "id": "odznaka-swiadek",
+   "sciezka": "odznaki/swiadek.webp",
+   "przeznaczenie": "odznaka w paszporcie",
+   "wpiecie": {
+    "gdzie": "paszport → Odznaki",
+    "warunek": "odznaka ocalaly (zdobyta w kolorze, niezdobyta przygaszona)",
+    "element": ".odznaki li .znak"
+   },
+   "tura": 1
+  },
+  {
+   "id": "odznaka-uczciwa",
+   "sciezka": "odznaki/uczciwa.webp",
+   "przeznaczenie": "odznaka w paszporcie",
+   "wpiecie": {
+    "gdzie": "paszport → Odznaki",
+    "warunek": "odznaka pomylka (zdobyta w kolorze, niezdobyta przygaszona)",
+    "element": ".odznaki li .znak"
+   },
+   "tura": 1
+  },
+  {
+   "id": "odznaka-archeolog",
+   "sciezka": "odznaki/archeolog.webp",
+   "przeznaczenie": "odznaka w paszporcie",
+   "wpiecie": {
+    "gdzie": "paszport → Odznaki",
+    "warunek": "odznaka starszy (zdobyta w kolorze, niezdobyta przygaszona)",
+    "element": ".odznaki li .znak"
+   },
+   "tura": 1
+  },
+  {
+   "id": "odznaka-genealog",
+   "sciezka": "odznaki/genealog.webp",
+   "przeznaczenie": "odznaka w paszporcie",
+   "wpiecie": {
+    "gdzie": "paszport → Odznaki",
+    "warunek": "odznaka rodzina (zdobyta w kolorze, niezdobyta przygaszona)",
+    "element": ".odznaki li .znak"
+   },
+   "tura": 1
+  },
+  {
+   "id": "odznaka-pilot",
+   "sciezka": "odznaki/pilot.webp",
+   "przeznaczenie": "odznaka w paszporcie",
+   "wpiecie": {
+    "gdzie": "paszport → Odznaki",
+    "warunek": "odznaka port (zdobyta w kolorze, niezdobyta przygaszona)",
+    "element": ".odznaki li .znak"
+   },
+   "tura": 1
+  },
+  {
+   "id": "odznaka-straznik",
+   "sciezka": "odznaki/straznik.webp",
+   "przeznaczenie": "odznaka w paszporcie",
+   "wpiecie": {
+    "gdzie": "paszport → Odznaki",
+    "warunek": "odznaka park (zdobyta w kolorze, niezdobyta przygaszona)",
+    "element": ".odznaki li .znak"
+   },
+   "tura": 1
+  },
+  {
+   "id": "odznaka-mieszkaniec",
+   "sciezka": "odznaki/mieszkaniec.webp",
+   "przeznaczenie": "odznaka w paszporcie",
+   "wpiecie": {
+    "gdzie": "paszport → Odznaki",
+    "warunek": "odznaka dzielnica (zdobyta w kolorze, niezdobyta przygaszona)",
+    "element": ".odznaki li .znak"
+   },
+   "tura": 1
+  },
+  {
+   "id": "odznaka-podroznik",
+   "sciezka": "odznaki/podroznik.webp",
+   "przeznaczenie": "odznaka w paszporcie",
+   "wpiecie": {
+    "gdzie": "paszport → Odznaki",
+    "warunek": "odznaka wszystkie10 (zdobyta w kolorze, niezdobyta przygaszona)",
+    "element": ".odznaki li .znak"
+   },
+   "tura": 1
+  },
+  {
+   "id": "odznaka-obiezyswiat",
+   "sciezka": "odznaki/obiezyswiat.webp",
+   "przeznaczenie": "odznaka w paszporcie",
+   "wpiecie": {
+    "gdzie": "paszport → Odznaki",
+    "warunek": "odznaka wszystkie30 (zdobyta w kolorze, niezdobyta przygaszona)",
+    "element": ".odznaki li .znak"
+   },
+   "tura": 1
+  },
+  {
+   "id": "odznaka-poszukiwacz",
+   "sciezka": "odznaki/poszukiwacz.webp",
+   "przeznaczenie": "odznaka w paszporcie",
+   "wpiecie": {
+    "gdzie": "paszport → Odznaki",
+    "warunek": "odznaka wyprawa (zdobyta w kolorze, niezdobyta przygaszona)",
+    "element": ".odznaki li .znak"
+   },
+   "tura": 1
+  },
+  {
+   "id": "odznaka-wytrwaly",
+   "sciezka": "odznaki/wytrwaly.webp",
+   "przeznaczenie": "odznaka w paszporcie",
+   "wpiecie": {
+    "gdzie": "paszport → Odznaki",
+    "warunek": "odznaka wyprawy7 (zdobyta w kolorze, niezdobyta przygaszona)",
+    "element": ".odznaki li .znak"
+   },
+   "tura": 1
+  },
+  {
+   "id": "pieczatka-ramka",
+   "sciezka": "odznaki/pieczatka.webp",
+   "przeznaczenie": "ramka pieczątki",
+   "wpiecie": {
+    "gdzie": "paszport → siatka ciał",
+    "warunek": "zdobyta pieczątka ciała",
+    "element": ".pieczatki span.ma (tło)"
+   },
+   "tura": 1
+  },
+  {
+   "id": "og-obraz",
+   "sciezka": "og/kosmos.webp",
+   "przeznaczenie": "obraz podglądu linku",
+   "wpiecie": {
+    "gdzie": "og:image w dist/kosmos.html",
+    "warunek": "brak lokalnego grafiki/kosmos-og.png",
+    "element": "<meta property=\"og:image\">"
+   },
+   "tura": 1
+  },
+  {
+   "id": "3d-palac",
+   "sciezka": "3d-zrodla/palac.webp",
+   "przeznaczenie": "budowla prestiżowa: pałac",
+   "wpiecie": null,
+   "tura": 2
+  },
+  {
+   "id": "3d-obserwatorium",
+   "sciezka": "3d-zrodla/obserwatorium.webp",
+   "przeznaczenie": "budowla prestiżowa: obserwatorium",
+   "wpiecie": null,
+   "tura": 2
+  },
+  {
+   "id": "3d-oranzeria",
+   "sciezka": "3d-zrodla/oranzeria.webp",
+   "przeznaczenie": "budowla prestiżowa: oranżeria",
+   "wpiecie": null,
+   "tura": 2
+  },
+  {
+   "id": "3d-latarnia",
+   "sciezka": "3d-zrodla/latarnia.webp",
+   "przeznaczenie": "budowla prestiżowa: latarnia orbitalna",
+   "wpiecie": null,
+   "tura": 2
+  },
+  {
+   "id": "3d-wieza-portu",
+   "sciezka": "3d-zrodla/wieza-portu.webp",
+   "przeznaczenie": "port kosmiczny",
+   "wpiecie": null,
+   "tura": 2
+  },
+  {
+   "id": "3d-stadion",
+   "sciezka": "3d-zrodla/stadion.webp",
+   "przeznaczenie": "lokal: stadion",
+   "wpiecie": null,
+   "tura": 2
+  },
+  {
+   "id": "3d-sterowiec",
+   "sciezka": "3d-zrodla/sterowiec.webp",
+   "przeznaczenie": "reklama w ruchu: sterowiec",
+   "wpiecie": null,
+   "tura": 2
+  },
+  {
+   "id": "3d-pomnik-kolonii",
+   "sciezka": "3d-zrodla/pomnik-kolonii.webp",
+   "przeznaczenie": "wspólny cel kolonii: plac z pomnikiem",
+   "wpiecie": null,
+   "tura": 2
+  },
+  {
+   "id": "3d-most-kolonii",
+   "sciezka": "3d-zrodla/most-kolonii.webp",
+   "przeznaczenie": "wspólny cel: most łączący dwie kolonie",
+   "wpiecie": null,
+   "tura": 2
+  },
+  {
+   "id": "3d-stacja-orbitalna",
+   "sciezka": "3d-zrodla/stacja-orbitalna.webp",
+   "przeznaczenie": "stacja orbitalna wokół słońca (aukcja)",
+   "wpiecie": null,
+   "tura": 2
+  },
+  {
+   "id": "3d-dom",
+   "sciezka": "3d-zrodla/dom.webp",
+   "przeznaczenie": "wariant: dom",
+   "wpiecie": null,
+   "tura": 2
+  },
+  {
+   "id": "3d-kamienica",
+   "sciezka": "3d-zrodla/kamienica.webp",
+   "przeznaczenie": "wariant: kamienica",
+   "wpiecie": null,
+   "tura": 2
+  },
+  {
+   "id": "3d-wiezowiec",
+   "sciezka": "3d-zrodla/wiezowiec.webp",
+   "przeznaczenie": "wariant: wieżowiec",
+   "wpiecie": null,
+   "tura": 2
+  },
+  {
+   "id": "3d-kawiarnia",
+   "sciezka": "3d-zrodla/kawiarnia.webp",
+   "przeznaczenie": "lokal: kawiarnia",
+   "wpiecie": null,
+   "tura": 2
+  },
+  {
+   "id": "3d-taksowka",
+   "sciezka": "3d-zrodla/taksowka.webp",
+   "przeznaczenie": "reklama w ruchu: taksówka",
+   "wpiecie": null,
+   "tura": 2
+  }
+ ]
+}

@@ -290,9 +290,13 @@
   {
    "id": "bilbord-przyklad-1",
    "sciezka": "bilbordy/przyklad-1.webp",
-   "przeznaczenie": "przykładowa kreacja bilbordu w trybie podglądu (bez marek)",
-   "wpiecie": null,
-   "tura": 2
+   "przeznaczenie": "podgląd kafelka „Bilbord”",
+   "wpiecie": {
+    "gdzie": "panel „Kup miejsce”, krok 1",
+    "warunek": "zawsze (brak pliku = rysunek z kodu)",
+    "element": ".zakup-obraz img"
+   },
+   "tura": 1
   },
   {
    "id": "bilbord-przyklad-2",
@@ -494,9 +498,13 @@
   {
    "id": "3d-palac",
    "sciezka": "3d-zrodla/palac.webp",
-   "przeznaczenie": "budowla prestiżowa: pałac",
-   "wpiecie": null,
-   "tura": 2,
+   "przeznaczenie": "podgląd kafelka „Budowla prestiżowa”",
+   "wpiecie": {
+    "gdzie": "panel „Kup miejsce”, krok 1",
+    "warunek": "zawsze (brak pliku = rysunek z kodu)",
+    "element": ".zakup-obraz img"
+   },
+   "tura": 1,
    "model": {
     "sciezka": "modele/palac.glb",
     "budowla": "palac",
@@ -592,9 +600,13 @@
   {
    "id": "3d-pomnik-kolonii",
    "sciezka": "3d-zrodla/pomnik-kolonii.webp",
-   "przeznaczenie": "wspólny cel kolonii: plac z pomnikiem",
-   "wpiecie": null,
-   "tura": 2,
+   "przeznaczenie": "podgląd kafelka „Kolonia społeczności”",
+   "wpiecie": {
+    "gdzie": "panel „Kup miejsce”, krok 1",
+    "warunek": "zawsze (brak pliku = rysunek z kodu)",
+    "element": ".zakup-obraz img"
+   },
+   "tura": 1,
    "model": {
     "sciezka": "modele/pomnik-kolonii.glb",
     "budowla": "pomnik-kolonii",

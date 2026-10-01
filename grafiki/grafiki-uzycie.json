@@ -301,9 +301,13 @@
   {
    "id": "bilbord-przyklad-2",
    "sciezka": "bilbordy/przyklad-2.webp",
-   "przeznaczenie": "przykładowa kreacja bilbordu w trybie podglądu (bez marek)",
-   "wpiecie": null,
-   "tura": 2
+   "przeznaczenie": "podgląd typu „wielki bilbord” w panelu „Kup miejsce”",
+   "wpiecie": {
+    "gdzie": "panel „Kup miejsce”, krok 2 (bilbord)",
+    "warunek": "wybrany typ = bilbord (brak pliku = rysunek z kodu)",
+    "element": "#zakupTypPodglad img"
+   },
+   "tura": 1
   },
   {
    "id": "bilbord-przyklad-3",
@@ -516,9 +520,13 @@
   {
    "id": "3d-obserwatorium",
    "sciezka": "3d-zrodla/obserwatorium.webp",
-   "przeznaczenie": "budowla prestiżowa: obserwatorium",
-   "wpiecie": null,
-   "tura": 2,
+   "przeznaczenie": "podgląd typu „obserwatorium” w panelu „Kup miejsce”",
+   "wpiecie": {
+    "gdzie": "panel „Kup miejsce”, krok 2 (budowla prestiżowa)",
+    "warunek": "wybrany typ = obserwatorium (brak pliku = rysunek z kodu)",
+    "element": "#zakupTypPodglad img"
+   },
+   "tura": 1,
    "model": {
     "sciezka": "modele/obserwatorium.glb",
     "budowla": "obserwatorium",
@@ -530,9 +538,13 @@
   {
    "id": "3d-oranzeria",
    "sciezka": "3d-zrodla/oranzeria.webp",
-   "przeznaczenie": "budowla prestiżowa: oranżeria",
-   "wpiecie": null,
-   "tura": 2,
+   "przeznaczenie": "podgląd typu „oranzeria” w panelu „Kup miejsce”",
+   "wpiecie": {
+    "gdzie": "panel „Kup miejsce”, krok 2 (budowla prestiżowa)",
+    "warunek": "wybrany typ = oranzeria (brak pliku = rysunek z kodu)",
+    "element": "#zakupTypPodglad img"
+   },
+   "tura": 1,
    "model": {
     "sciezka": "modele/oranzeria.glb",
     "budowla": "oranzeria",
@@ -544,9 +556,13 @@
   {
    "id": "3d-latarnia",
    "sciezka": "3d-zrodla/latarnia.webp",
-   "przeznaczenie": "budowla prestiżowa: latarnia orbitalna",
-   "wpiecie": null,
-   "tura": 2,
+   "przeznaczenie": "podgląd typu „latarnia” w panelu „Kup miejsce”",
+   "wpiecie": {
+    "gdzie": "panel „Kup miejsce”, krok 2 (budowla prestiżowa)",
+    "warunek": "wybrany typ = latarnia (brak pliku = rysunek z kodu)",
+    "element": "#zakupTypPodglad img"
+   },
+   "tura": 1,
    "model": {
     "sciezka": "modele/latarnia.glb",
     "budowla": "latarnia",

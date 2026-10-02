@@ -178,6 +178,7 @@ h1 .tytul-krotki{display:none}
 .menu .nawigacja{display:block}
 .menu-grupa h3{margin:10px 0 4px;font:500 11.5px/1.3 "IBM Plex Sans",system-ui,sans-serif;letter-spacing:.09em;text-transform:uppercase;color:var(--cichy)}
 .menu .nawigacja button,.menu .nawigacja a,.menu .nawigacja select{display:block;width:100%;max-width:none;box-sizing:border-box;text-align:left;margin:4px 0;text-decoration:none;font:inherit;font-size:14px;color:var(--tekst);background:var(--p-tlo);border:1px solid var(--p-ramka);border-radius:6px;padding:7px 10px;cursor:pointer}
+.menu .nawigacja .menu-przeniesione{display:none}
 .menu .nawigacja a[hidden]{display:none}
 .menu .obecni{display:block;margin-top:10px;color:var(--cichy);font-size:12px}
 .strona-data{margin:-4px 0 10px;color:var(--cichy);font-size:12px}
@@ -797,7 +798,8 @@ button.p-glowny[disabled],button.p-cichy[disabled],button.p-niebezpieczny[disabl
 }
 
 @media (max-width:560px){
-  .naglowek{padding-top:calc(env(safe-area-inset-top,0px) + 8px);position:relative}
+  .naglowek{width:100%;max-width:none;padding:calc(env(safe-area-inset-top,0px) + 8px) 12px 0;position:relative}
+  .naglowek::before{left:-12px;right:-12px;bottom:-14px;border-radius:0 0 18px 18px}
   .podtytul{display:none}
   /* zadanie 36: tytul w jednej linii z wielokropkiem, marka bierze reszte szerokosci po rogu narzedzi — na 320 px „Kosmos rejestru” nie wchodzi pod przyciski */
   .marka{flex:1 1 auto;min-width:0}
@@ -805,20 +807,17 @@ button.p-glowny[disabled],button.p-cichy[disabled],button.p-niebezpieczny[disabl
   h1 .tytul-pelny{display:none} h1 .tytul-krotki{display:inline} h1:has(.tytul-krotki){font-size:21px}   /* zadanie 49: na telefonie krotki tytul calego kosmosu, bez wielokropka */
   .narzedzia{gap:4px}
   .narzedzia button{padding:5px 8px;font-size:13px}
-  .narzedzia .jezyk button{padding:4px 7px;font-size:11.5px}
+  /* Jezyk jest uruchamiany z menu; niewidoczny przycisk zachowuje pozycje kotwicy listy. */
+  .narzedzia>.jezyk{position:absolute;right:12px;top:calc(env(safe-area-inset-top,0px) + 8px);visibility:hidden;pointer-events:none}
+  .narzedzia .pelny-ekran{display:none}
+  .menu .nawigacja .menu-przeniesione{display:block}
+  .szukaj{width:100%;margin:0}
   .tablice.menu{left:0;right:0;top:0;bottom:0;width:auto;max-height:none;border-radius:0;border:0;padding:calc(env(safe-area-inset-top,0px) + 14px) 16px 16px}
   .menu .nawigacja button,.menu .nawigacja a,.menu .nawigacja select{min-height:36px}
   .nawigacja .narzedzia button,.nawigacja .narzedzia a{padding:3px 7px}
-  /* zadanie 36: miejsce na licznik ocalalych tylko wtedy, gdy licznik stoi (160 px stalego marginesu lamalo okruszki „Kosmos › ETH” na dwa
-     wiersze przy 320–360 px i naglowek rosl do 142 px); okruszki w jednym wierszu, dluzszy slad przewija sie palcem */
-  .okruszki{position:relative;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;white-space:nowrap}
-  .okruszki::-webkit-scrollbar{display:none}
-  .okruszki{padding-right:88px}
-  .okruszki:has(#ocalale:not([hidden])){padding-right:180px}
-  .ocalale{position:absolute;right:88px;top:3px;margin:0;font-size:11px;padding:1px 6px}
-  /* zadanie 51: na telefonie „Kup” stoi pod rogiem narzedzi, w wierszu okruszkow (w rzedzie narzedzi tytul nie mialby miejsca) */
-  .pasek-gorny{position:relative}
-  .narzedzia .kup-btn{position:absolute;z-index:2;right:0;top:calc(100% + 3px);padding:3px 10px;font-size:12.5px;min-height:24px;max-width:80px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  /* Na telefonie wyszukiwarka jest ostatnim elementem chrome UI przed widokiem kosmosu. */
+  .okruszki{display:none}
+  .narzedzia .kup-btn{padding:5px 8px;font-size:13px;white-space:nowrap}
   .pytajnik{width:24px;height:24px;font-size:12px}
   .wstep-zdanie{font-size:14px}
   .do-domu .pelny{display:none}
@@ -901,6 +900,7 @@ button.p-glowny[disabled],button.p-cichy[disabled],button.p-niebezpieczny[disabl
     <nav class="nawigacja" aria-label="Nawigacja" data-t-al="nawig.al">
       <div class="menu-grupa"><h3 data-t="menu.odkrywaj">Odkrywaj</h3>
         <button id="calosc" type="button" disabled data-t="nawig.calosc">Cały kosmos</button>
+        <button class="menu-przeniesione" type="button" data-t="pelny.tytul" onclick="document.getElementById('pelnyEkran').click()">Pełny ekran</button>
         <button id="wyprawaBtn" type="button" data-t-pierwszy="nawig.wyprawa">Wyprawa <span id="wyprawaLicz"></span></button>
         <button id="samouczekBtn" type="button" data-t="menu.samouczek">Samouczek (2 min)</button>
         <button id="wstepBtn" type="button" data-t="menu.wstep">Przelot powitalny (8 s)</button>
@@ -921,6 +921,7 @@ button.p-glowny[disabled],button.p-cichy[disabled],button.p-niebezpieczny[disabl
         <button id="ksiegaBtn" type="button" data-t="tablice.ksiega">Księga parcel</button>
       </div>
       <div class="menu-grupa"><h3 data-t="menu.oProjekcie">O projekcie</h3>
+        <button class="menu-przeniesione" type="button" data-t="jezyk.al" onclick="document.getElementById('jezykWiecej').click()">Język strony</button>
         <button id="oRejestrzeBtn" type="button" data-t="strona.o.tytul">O rejestrze</button>
         <button id="slownikBtn" type="button" data-t="slownik.tytul">Słowniczek</button>
         <button id="zasadyBtn" type="button" data-t="strona.zasady.tytul">Zasady reklamy</button>

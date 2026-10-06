@@ -191,46 +191,67 @@
   {
    "id": "lokal-kawiarnia",
    "sciezka": "lokale/kawiarnia.webp",
-   "przeznaczenie": "nagłówek karty lokalu kawiarnia",
+   "przeznaczenie": "nagłówek karty lokalu kawiarnia i ściana lokalu kawiarnia",
    "wpiecie": {
-    "gdzie": "karta lokalu",
+    "gdzie": "karta lokalu; dzielnica: bryła lokalu typu kawiarnia",
     "warunek": "typ lokalu = kawiarnia",
-    "element": "#kartaObraz"
+    "element": "#kartaObraz; material.map ściany"
    },
    "tura": 1
   },
   {
    "id": "lokal-restauracja",
    "sciezka": "lokale/restauracja.webp",
-   "przeznaczenie": "nagłówek karty lokalu restauracja",
+   "przeznaczenie": "nagłówek karty lokalu restauracja i ściana lokalu restauracja",
    "wpiecie": {
-    "gdzie": "karta lokalu",
+    "gdzie": "karta lokalu; dzielnica: bryła lokalu typu restauracja",
     "warunek": "typ lokalu = restauracja",
-    "element": "#kartaObraz"
+    "element": "#kartaObraz; material.map ściany"
    },
-   "tura": 1
+   "tura": 1,
+   "model": {
+    "sciezka": "modele/restauracja.glb",
+    "budowla": "restauracja",
+    "wScenie": true,
+    "gdzie": "lokal: restauracja (podgląd i formularz)",
+    "warunek": "kamera bliżej niż 0,9 promienia ciała od budowli; z daleka i bez pliku zostaje bryła z kodu"
+   }
   },
   {
    "id": "lokal-sklep",
    "sciezka": "lokale/sklep.webp",
-   "przeznaczenie": "nagłówek karty lokalu sklep",
+   "przeznaczenie": "nagłówek karty lokalu sklep i ściana lokalu sklep",
    "wpiecie": {
-    "gdzie": "karta lokalu",
+    "gdzie": "karta lokalu; dzielnica: bryła lokalu typu sklep",
     "warunek": "typ lokalu = sklep",
-    "element": "#kartaObraz"
+    "element": "#kartaObraz; material.map ściany"
    },
-   "tura": 1
+   "tura": 1,
+   "model": {
+    "sciezka": "modele/sklep.glb",
+    "budowla": "sklep",
+    "wScenie": true,
+    "gdzie": "lokal: sklep (podgląd i formularz)",
+    "warunek": "kamera bliżej niż 0,9 promienia ciała od budowli; z daleka i bez pliku zostaje bryła z kodu"
+   }
   },
   {
    "id": "lokal-silownia",
    "sciezka": "lokale/silownia.webp",
-   "przeznaczenie": "nagłówek karty lokalu silownia",
+   "przeznaczenie": "nagłówek karty lokalu silownia i ściana lokalu silownia",
    "wpiecie": {
-    "gdzie": "karta lokalu",
+    "gdzie": "karta lokalu; dzielnica: bryła lokalu typu silownia",
     "warunek": "typ lokalu = silownia",
-    "element": "#kartaObraz"
+    "element": "#kartaObraz; material.map ściany"
    },
-   "tura": 1
+   "tura": 1,
+   "model": {
+    "sciezka": "modele/silownia.glb",
+    "budowla": "silownia",
+    "wScenie": true,
+    "gdzie": "lokal: siłownia (podgląd i formularz)",
+    "warunek": "kamera bliżej niż 0,9 promienia ciała od budowli; z daleka i bez pliku zostaje bryła z kodu"
+   }
   },
   {
    "id": "lokal-kino",
@@ -241,18 +262,32 @@
     "warunek": "typ lokalu = kino",
     "element": "#kartaObraz"
    },
-   "tura": 1
+   "tura": 1,
+   "model": {
+    "sciezka": "modele/kino.glb",
+    "budowla": "kino",
+    "wScenie": true,
+    "gdzie": "lokal: kino (podgląd i formularz)",
+    "warunek": "kamera bliżej niż 0,9 promienia ciała od budowli; z daleka i bez pliku zostaje bryła z kodu"
+   }
   },
   {
    "id": "lokal-szkola",
    "sciezka": "lokale/szkola.webp",
-   "przeznaczenie": "nagłówek karty lokalu szkola",
+   "przeznaczenie": "nagłówek karty lokalu szkola i ściana lokalu szkola",
    "wpiecie": {
-    "gdzie": "karta lokalu",
+    "gdzie": "karta lokalu; dzielnica: bryła lokalu typu szkola",
     "warunek": "typ lokalu = szkola",
-    "element": "#kartaObraz"
+    "element": "#kartaObraz; material.map ściany"
    },
-   "tura": 1
+   "tura": 1,
+   "model": {
+    "sciezka": "modele/szkola.glb",
+    "budowla": "szkola",
+    "wScenie": true,
+    "gdzie": "lokal: szkoła (podgląd i formularz)",
+    "warunek": "kamera bliżej niż 0,9 promienia ciała od budowli; z daleka i bez pliku zostaje bryła z kodu"
+   }
   },
   {
    "id": "lokal-hotel",
@@ -263,7 +298,14 @@
     "warunek": "typ lokalu = hotel",
     "element": "#kartaObraz"
    },
-   "tura": 1
+   "tura": 1,
+   "model": {
+    "sciezka": "modele/hotel.glb",
+    "budowla": "hotel",
+    "wScenie": true,
+    "gdzie": "lokal: hotel (podgląd i formularz)",
+    "warunek": "kamera bliżej niż 0,9 promienia ciała od budowli; z daleka i bez pliku zostaje bryła z kodu"
+   }
   },
   {
    "id": "lokal-centrum",
@@ -274,16 +316,23 @@
     "warunek": "typ lokalu = centrum",
     "element": "#kartaObraz"
    },
-   "tura": 1
+   "tura": 1,
+   "model": {
+    "sciezka": "modele/centrum.glb",
+    "budowla": "centrum",
+    "wScenie": true,
+    "gdzie": "lokal: centrum handlowe (podgląd i formularz)",
+    "warunek": "kamera bliżej niż 0,9 promienia ciała od budowli; z daleka i bez pliku zostaje bryła z kodu"
+   }
   },
   {
    "id": "lokal-stadion",
    "sciezka": "lokale/stadion.webp",
-   "przeznaczenie": "nagłówek karty lokalu stadion",
+   "przeznaczenie": "nagłówek karty lokalu stadion i ściana lokalu stadion",
    "wpiecie": {
-    "gdzie": "karta lokalu",
+    "gdzie": "karta lokalu; dzielnica: bryła lokalu typu stadion",
     "warunek": "typ lokalu = stadion",
-    "element": "#kartaObraz"
+    "element": "#kartaObraz; material.map ściany"
    },
    "tura": 1
   },

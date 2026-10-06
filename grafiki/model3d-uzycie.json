@@ -122,6 +122,62 @@
    "kategoria": "reklama_w_ruchu",
    "bajty": 113924,
    "kredyty": 30
+  },
+  {
+   "id": "3d-restauracja",
+   "plik": "modele/restauracja.glb",
+   "zastepuje": "lokal: restauracja",
+   "kategoria": "lokal",
+   "bajty": 64020,
+   "kredyty": 30
+  },
+  {
+   "id": "3d-sklep",
+   "plik": "modele/sklep.glb",
+   "zastepuje": "lokal: sklep",
+   "kategoria": "lokal",
+   "bajty": 62408,
+   "kredyty": 30
+  },
+  {
+   "id": "3d-silownia",
+   "plik": "modele/silownia.glb",
+   "zastepuje": "lokal: silownia",
+   "kategoria": "lokal",
+   "bajty": 74504,
+   "kredyty": 30
+  },
+  {
+   "id": "3d-szkola",
+   "plik": "modele/szkola.glb",
+   "zastepuje": "lokal: szkola",
+   "kategoria": "lokal",
+   "bajty": 77020,
+   "kredyty": 30
+  },
+  {
+   "id": "3d-hotel",
+   "plik": "modele/hotel.glb",
+   "zastepuje": "lokal: hotel",
+   "kategoria": "lokal",
+   "bajty": 53868,
+   "kredyty": 30
+  },
+  {
+   "id": "3d-centrum",
+   "plik": "modele/centrum.glb",
+   "zastepuje": "lokal: centrum",
+   "kategoria": "lokal",
+   "bajty": 102148,
+   "kredyty": 30
+  },
+  {
+   "id": "3d-kino",
+   "plik": "modele/kino.glb",
+   "zastepuje": "lokal: kino",
+   "kategoria": "lokal",
+   "bajty": 71384,
+   "kredyty": 30
   }
  ]
 }

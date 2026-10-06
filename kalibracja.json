@@ -1,8 +1,8 @@
 {
-  "n": 6363,
-  "p_srednie": 0.9716920792079149,
-  "umarlo_faktycznie": 0.9212635549269212,
-  "stan_na": "2026-10-05",
+  "n": 6413,
+  "p_srednie": 0.971764338063303,
+  "umarlo_faktycznie": 0.9179791049430843,
+  "stan_na": "2026-10-06",
   "sieci": [
     "base",
     "bsc"
